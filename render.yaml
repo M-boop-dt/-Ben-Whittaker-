@@ -1,0 +1,17 @@
+
+
+
+
+
+
+
+
+
+services:
+  - type: web
+    name: ben-whittaker-tech-bot
+    env: node
+    buildCommand: npm install
+    startCommand: node index.js
+    envVars:
+      - fromDotEnv: true
