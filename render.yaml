@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: ben-whittaker-bot
+    env: node
+    plan: free
+    buildCommand: npm install
+    startCommand: node index.js
+    autoDeploy: true
+    envVars:
+      - key: PREFIX
+        value: "!"
+      - key: OWNER_NUMBER
+        value: "255760317060"
