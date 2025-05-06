@@ -1,0 +1,14 @@
+{
+  "name": "ben-whittaker-bot",
+  "version": "1.0.0",
+  "description": "WhatsApp Bot with 300 features",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.7.16",
+    "pino": "^8.0.0",
+    "dotenv": "^16.0.0"
+  }
+}
